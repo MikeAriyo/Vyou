@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <title>Vyou</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/v logo.png"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><h1>Vyou</h1></div>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Mode</a></li>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+      
+      </ul>
+  </nav>
+   
+
+    
+
+    <section class="wall">
+      <div class="post-wrapper">
+        <div class="post">
+          <div class="post-info">
+            <img src="./images/picture.jfif" class="profile-photo" alt="" />
+            <a href="#"><h2 class="profile-name">tomiBradson</h2></a>
+          </div>
+          <img src="./images/wall1.jfif" alt="" class="post-image" />
+          <ul class="reactions">
+            <li>
+              <i class="far fa-heart"  onclick="incrementButton()"></i>
+              <a href="" class=""><i class="far fa-comment-alt"></i></a>
+              <a href="" class=""><i class="far fa-compass"></i></a>
+            </li>
+          </ul>
+          <div id="count">
+            <p><span class="likes">0</span> Likes</p>
+            <a href="likes.html" class="">
+              <p>view full reactions</p>
+            </a>
+          </div>
+          <p class="caption">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, quasi?
+          </p>
+        </div>
+
+        <div class="post">
+          <div class="post-info">
+            <img src="./images/profile2.png" class="profile-photo" alt="" />
+            <a href="index.html"><h2 class="profile-name">allysonBecker</h2></a>
+          </div>
+          <img src="./images/wallphoto1.jfif" alt="" class="post-image" />
+          <ul class="reactions">
+            <li>
+              <i class="far fa-heart"></i>
+              <a href="" class=""><i class="far fa-comment-alt"></i></a>
+              <a href="" class=""><i class="far fa-compass"></i></a>
+            </li>
+          </ul>
+          <div id="count">
+            <p><span class="likes">0</span> Likes</p>
+            <a href="likes.html" class=""><p>view full reactions</p></a>
+          </div>
+          <p class="caption">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. At, vel.
+          </p>
+        </div>
+
+        <div class="post">
+          <div class="post-info">
+            <img src="./images/round 3.jfif" class="profile-photo" alt="" />
+            <a href="index.html"><h2 class="profile-name">abokimade</h2></a>
+          </div>
+          <img src="./images/wall 3.jfif" alt="" class="post-image" />
+          <ul class="reactions">
+            <li>
+              <i class="far fa-heart"></i>
+              <a href="" class=""><i class="far fa-comment-alt"></i></a>
+              <a href="" class=""><i class="far fa-compass"></i></a>
+            </li>
+          </ul>
+          <div id="count">
+          <p><span class="likes">0</span> Likes</p>
+          <a href="likes.html" class="">
+            <p>view full reactions</p>
+          </a>
+          </div>
+          <p class="caption">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, labore?
+          </p>
+        </div>
+
+        <div class="post">
+          <div class="post-info">
+            <img src="./images/round 4.png" class="profile-photo" alt="" />
+            <a href="index.html" class=""><h2 class="profile-name">jon_Doe</h2></a>
+          </div>
+          <img src="./images/wall 4.jfif" alt="" class="post-image" />
+          <ul class="reactions">
+            <li>
+              <i class="far fa-heart"></i>
+              <a href="" class=""><i class="far fa-comment-alt"></i></a>
+              <a href="" class=""><i class="far fa-compass"></i></a>
+            </li>
+          </ul>
+          <div id="count">
+          <p><span class="likes">0</span> Likes</p>
+          <a href="likes.html" class="">
+            <p>view full reactions</p>
+          </a>
+          </div>
+          <p class="caption">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur!
+          </p>
+        </div>
+
+        <div class="post">
+          <div class="post-info">
+            <img src="./images/round 5.png" class="profile-photo" alt="" />
+            <a href="index.html" class=""><h2 class="profile-name">_kloe</h2></a>
+          </div>
+          <img src="./images/wall 5.jfif" alt="" class="post-image" />
+          <ul class="reactions">
+            <li>
+              <i class="far fa-heart" id="love" ></i>
+              <a href="" class=""><i class="far fa-comment-alt"></i></a>
+              <a href="" class=""><i class="far fa-compass"></i></a>
+            </li>
+          </ul>
+          <div id="count">
+          <p class="center"><span class="likes">0</span> Likes</p>
+          <a href="likes.html" class="">
+            <p>view full reactions</p>
+          </a>
+          </div>
+          <p class="caption">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, corrupti.
+          </p>
+        </div>
+      </div>
+
+      <div class="side">
+        <div class="side-profile">
+          <div class="side-info">
+            <div class="wrapper">
+              <img src="./images/profile4.jfif" class="side-photo" alt="" />
+              <div class="flex">
+                <a href="profile.html" class=""><h2 class="profile-name">Allen_</h2></a>
+                <p class="username">TheAllenJackson</p>
+              </div>
+            </div>
+
+            <a href="index.html" class="switch">Switch</a>
+
+            
+          </div>
+        </div>
+
+        <div class="Suggestions">
+          <p>Suggestions for you</p>
+          
+        </div>
+        <div class="wrapper">
+          <img src="./images/profile2.png" class="follow-photo" alt="" />
+          
+            <h2 class="profile-name">Daguru</h2>
+            
+            <p class="follow">Follow</p>
+
+          
+            
+      </div>
+      <div class="wrapper">
+        <img src="./images/profile2.jfif" class="follow-photo" alt="" />
+      
+        <h2 class="profile-name">Daniel</h2>
+      
+        <p class="follow">Follow</p>
+      
+      </div>
+      <div class="wrapper">
+        <img src="./images/round 3.jfif" class="follow-photo" alt="" />
+      
+        <h2 class="profile-name">Marzouq</h2>
+      
+        <p class="follow">Follow</p>
+      
+      </div>
+      <div class="wrapper">
+        <img src="./images/round 4.png" class="follow-photo" alt="" />
+      
+        <h2 class="profile-name">Topetoba</h2>
+      
+        <p class="follow">Follow</p>
+      
+      </div>
+      <div class="wrapper">
+        <img src="./images/round 3.jfif" class="follow-photo" alt="" />
+      
+        <h2 class="profile-name">Tosin</h2>
+      
+        <p class="follow">Follow</p>
+      
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/25155ec202.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="nav.js"></script>
+  </body>
+</html>
